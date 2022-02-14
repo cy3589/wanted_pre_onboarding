@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 const Tab = () => {
-  const [toggle, setToggle] = useState(false);
   const [tabState, setTabState] = useState({ ONE: false, TWO: false, THREE: false });
   const initialState = { ONE: false, TWO: false, THREE: false };
   return (
