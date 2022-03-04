@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
+const initialData = ['refurbished', 'antique', 'vintage', '중고A급', 'rustic'];
 const AutoComplete = () => {
-  const initialData = ['refurbished', 'antique', 'vintage', '중고A급', 'rustic'];
   const [inputValue, setInputValue] = useState('');
   const [autoCompleteResult, setAutoCompleteResult] = useState([]);
   useEffect(() => {
